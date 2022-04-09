@@ -155,15 +155,15 @@ source $ZSH/oh-my-zsh.sh
 
 #neofetch --kitty ~/Images/LOGOS/debian-spiral.png --image_size none 
 
-setopt extendedglobsh -c "$(curl -fsLS chezmoi.io/get)" -- init --apply $GITHUB_USERNAME
+#setopt extendedglobsh -c "$(curl -fsLS chezmoi.io/get)" -- init --apply $GITHUB_USERNAME
 setopt numericglobsort
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+#source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #dotfiles
-sh -c "$(curl -fsLS chezmoi.io/get)" -- init --apply $GITHUB_USERNAME
+#sh -c "$(curl -fsLS chezmoi.io/get)" -- init --apply $GITHUB_USERNAME
 
 #pywal
 
